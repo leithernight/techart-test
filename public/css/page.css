@@ -1,0 +1,56 @@
+main {
+  padding: 72px 200px 137px 200px;
+  border-top: 1px solid #6C6E7B;
+}
+main nav {
+  display: flex;
+  gap: 7.5px;
+  margin-bottom: 22px;
+}
+main nav a:nth-last-child(1) {
+  color: #6C6E7B;
+}
+main nav div {
+  color: #6C6E7B;
+}
+main h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 90px;
+  margin-bottom: 63px;
+}
+main .new {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+}
+main .new .new-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 40px;
+}
+main .new .new-wrapper .content-container {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .new .new-wrapper .content-container .new-wrapper_announce {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  color: #841844;
+}
+main .new .new-wrapper .content-container .new-wrapper_content {
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+}
+main .new .new-wrapper .content-container .new-wrapper_content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+main .new .new-wrapper .new-wrapper_btn img {
+  transform: rotate(180deg);
+}
